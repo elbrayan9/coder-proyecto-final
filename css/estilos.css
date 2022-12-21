@@ -328,7 +328,7 @@ footer img:hover {
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.733)}
 
     /*mediaquaries*/
-   
+
    
 @media screen and (max-width: 600px){
 .navegacion{
@@ -343,8 +343,7 @@ footer img:hover {
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-family: 'IBM Plex Serif', serif;;
-    text-align: center ;
-}
+    text-align: center ;}
 
 .captus img{
     width: 100%;
@@ -386,7 +385,7 @@ footer img:hover {
 .mover{
     position: relative;
     left: 2%;}
-    .mover1{
+.mover1{
     position: relative;
     left: 7%;}
 
@@ -396,7 +395,20 @@ footer img:hover {
 
 .imagenfolmulario {
     background-image: url(../assets/imagenes/peaky\ blinder\ 5.jpeg);
-    width: 95%;
+    width: 95%;} }
+
+@media screen and (max-width: 1024px){
+
+.mover{
+    position: relative;
+    left: 3%;}
+.mover1{
+    position: relative;
+    left: -9%;} }
+   
+
+
+
 
                         
 
