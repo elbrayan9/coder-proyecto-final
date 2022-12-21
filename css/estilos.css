@@ -389,3 +389,11 @@ footer img:hover {
     left: 30%; }
   .imagenfolmulario {
     width: 95%; } }
+
+@media screen and (max-width: 1024px) {
+  .mover {
+    position: relative;
+    left: 3%; }
+  .mover1 {
+    position: relative;
+    left: -9%; } }
