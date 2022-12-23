@@ -1,11 +1,31 @@
+
+@import"variables";
+@import"reset";
+@import"main";
+@import"header";
+@import"body";
+@import"footer";
+@import"main_unirse";
+@import"main_tienda";
+@import"main_index";
+
+
 @import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Serif:wght@100 & display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;}
+
+
+
+
+
+
+
+
 
 /*General*/
+
+/*.cabezera2{
+    background-color: #000000b5;}
+
 .cabezera2 .titulo1{
     color: black;
     font-family: 'IBM Plex Serif', serif;
@@ -48,14 +68,13 @@
     font-weight: bold;
     font-size: 1.5rem;
     text-decoration: none;
-    margin: 100px;}
+    margin: 100px;}*/
 
-.chomaso2 {
-    background-color: rgba(0, 0, 0, 0);
-    opacity: 1;
-    margin-top: 20px !important;
-    text-shadow: 1px 1px 10px black; }
-
+/*.navegacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;}
 .navegacion .navegacion2{
     background-color: black;
     color: darkgray;
@@ -68,15 +87,9 @@
     text-decoration: none;
     margin: 4px;
     margin-top: 0px;
-}
+}*/
 
-.navegacion{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end; }
-
-nav ul {
+/*nav ul {
     text-decoration: none;
     color: darkgray;
     list-style-type: none;}
@@ -89,84 +102,19 @@ nav ul li a:hover{
     color: rgb(255, 255, 255);}
 
 nav li{
-    display: inline-block;}
+    display: inline-block;}*/
 
-body{
+ 
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;}
-
-div a{
+/*div a{
     text-decoration: none;
     color: darkgray;}
 
 div a:hover{
-    color: rgb(255, 255, 255);}
-
-.findepagina .textblanco{
-    color: white;}
+    color: rgb(255, 255, 255);}*/
 
 
-.logo img {
-    width: 80px;}
-
-
-footer {
-  text-align: center;
-  font-size: 0.7rem;
-  padding-top: 10px;
-  line-height: 15px;
-  background-color: #5653539d;
-  color: black; }
-footer a {
-    color: black !important; }
-footer a:hover {
-    color: #fff !important; }
-footer li {
-    list-style: none;
-    display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 0.8rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: relative; }
-footer li::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 0%;
-    opacity: 0.2;
-    content: '.';
-    color: transparent;
-    background: black;
-    height: 1px;
-    transition: all .2s ease; }
-footer li:hover::after {
-    width: 80%;
-    opacity: 1;
-    transition: all .2s ease; }
-footer img {
-    width: 30px;
-    margin: 10px;
-    margin-top: 20px;
-    margin-bottom: 17px;
-    transition: transform 0.5s ease; }
-footer img:hover {
-    transform: scale(1.2);
-    transition: transform 0.5s ease; }
-
-.pie{
-    background-color: #ffffff9d;}
-
-.cabezera2{
-    background-color: #000000b5;}
-
-.captus{
+/*.captus{
     width: 1800px;
     height: 400px;
 }   
@@ -189,66 +137,10 @@ footer img:hover {
     top: -80%;
     left: 0%;}
 
-/* Bootstap */
-.carrito {
-    color: #000000 !important;
-    border-color: #868686 !important;
-    border-width: 3px !important;
-    height: 50px;
-    background: rgba(255, 255, 255, 0.7) !important;
-    font-family: 'IBM Plex Serif', serif!important;
-    font-size: 1.5rem !important;
-    position: relative;
-    overflow: hidden;
-    transition: all .35s;
-    display: block;
-    z-index: 1 !important;
-    transition: all .35s; }
-    
-.carrito:hover {
-    color: #fff !important; }
-
-.carrito::before, .carrito::after {
-    position: absolute !important;
-    content: "";
-    width: 100% !important;
-    height: 100% !important;
-    top: -50px !important;
-    left: 0 !important;
-    background: #000000 !important;
-    z-index: -1 !important;
-    transition: all .35s !important; }
-.carrito::before {
-    opacity: 0.5 !important; }
-
-.carrito::after {
-    transition-delay: .2s !important;
-    transform: rotate(0deg) !important;
-    opacity: 1 !important; }
-
-.carrito:hover::before, .carrito:hover::after {
-    top: 0 !important; }
 
 /*tienda*/
-.card{
-    background-color: #262626 !important;
-    margin-left: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 18rem;} 
-.card-title{
-    font-family: 'IBM Plex Serif', serif;
-    font-weight: bold;}
 
-.card-text{
-        font-family: 'IBM Plex Serif', serif;
-        font-weight: arial;}
-
-.color{
-    color: white;}
-
-.tarjeta1 {
+/*.mover1 .tarjeta2.tarjeta1 {
     display: none;
     opacity: 0;
     transition: opacity 0.5s ease; }
@@ -262,70 +154,19 @@ footer img:hover {
     opacity: 0.5;
     transition: opacity 0.1s ease; }
       
-.card-img-top {
+.mover1 .tarjeta2.card-img-top {
     transition: opacity 0.5s ease; }
 
-.libro{
+.mover1.libro{
     font-family: 'IBM Plex Serif', serif;
     font-weight: arial;
     color: white;
     text-align: center;} 
-
-.mover{
-    position: relative;
-    left: 1%;}
 .mover1{
         position: relative;
-        left: -3%;}
- .formu{
-    display: flex;
-    justify-content: end;
- }
-/*unirce*/    
-.imagenfolmulario {
+        left: -3%;}*/
 
-    background-size: cover;
-    min-height: 400px;
-    border-radius: 10px;
-    width: 50%;}
-
-.formulario2{
-    font-family: 'IBM Plex Serif', serif;
-    font-weight: arial;
-    color: white;
-    text-align: center;} 
-
-.boton1{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border: 1px;
-    border-radius: 10px;
-    padding: 4px;
-    font-family: 'IBM Plex Serif', serif;
-    font-weight: bold;
-    font-size: 1rem;
-    text-decoration: none;
-    margin-top: 10px;}  
  
-/*galeria*/        
- .mover2{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    position: relative;
-    left: -3.5%;}
-
-/*inicio*/    
-.carru{
- border-radius: 0mm;}
-
-.titulocarrusel{
-    color: black;
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.733)}
 
     /*mediaquaries*/
    

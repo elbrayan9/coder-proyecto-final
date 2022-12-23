@@ -1,0 +1,31 @@
+$color-black: black;
+$background: black;
+$fuente:'IBM Plex Serif', serif;
+$centrado:center;
+$text-align: center;
+$font-weight:bold;
+$position:relative
+
+
+$sizes-fonts(
+  rem1:0.7rem
+  rem2:0.8rem
+  rem3:1.2rem
+  rem4:3rem
+  rem5:1.5rem
+  rem6:1rem
+  rem7:1.3rem
+  rem8:2rem 
+  ) ;
+
+$margin:(
+   px1:10px
+   px2:4px
+   px3:100px
+);
+
+
+@mixin mixinHeight {
+ width: 100%;
+}
+

@@ -1,0 +1,51 @@
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end; 
+    .navegacion2{
+        background-color: $background;
+        color: darkgray;
+        border: 1px;
+        border-radius: 10px;
+        padding: 5px;
+        font-family: $fuente;
+        font-weight: $font-weight;
+        font-size: map-get($sizes-fonts, rem3 );
+        text-decoration: none;
+        margin: map-get($margin, px2 );
+        margin-top: 0px;
+    }
+
+}
+
+nav{
+    ul {
+        text-decoration: none;
+        color: darkgray;
+        list-style-type: none; 
+        li{
+           display: inline-block;
+            a {
+              text-decoration: none;
+              color: darkgray;
+            }
+              :hover{
+            color: rgb(255, 255, 255);}
+    }
+        
+    }
+}
+
+div{
+    a{
+        text-decoration: none;
+        color: darkgray;
+        :hover{
+            color: rgb(255, 255, 255);}
+    }
+        
+}   
+
+.logo img {
+    width: 80px;}

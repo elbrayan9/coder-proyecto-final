@@ -90,6 +90,7 @@ nav li {
   display: inline-block; }
 
 body {
+  background-image:linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)), url(./../assets/imagenes/peaky\ blinder\ 2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
@@ -289,6 +290,7 @@ footer img:hover {
 
 /*unirce*/
 .imagenfolmulario {
+  background-image: url(../assets/imagenes/peaky\ blinder\ 5.jpeg);
   background-size: cover;
   min-height: 400px;
   border-radius: 10px;

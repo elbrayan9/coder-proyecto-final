@@ -1,0 +1,121 @@
+.cabezera2{
+    background-color: #000000b5;
+    .titulo1{
+        color:$color-black;
+        font-family: $fuente;
+        font-size: map-get($sizes-fonts, rem4 );
+        font-weight: $font-weight;
+        text-align: left;
+        text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.733)}
+    .parrafo1{
+        color: rgb(255, 255, 255);
+        font-size: map-get($sizes-fonts, rem5 );
+        font-family: $fuente;;
+        text-align: $text-align ;
+        text-shadow: 10px 10px 10px rgb(0, 0, 0)}
+    .textogris{
+        color: $color-black;
+        background-color: darkgray;
+        font-family:$fuente;
+        font-weight: bold;
+        font-size: map-get($sizes-fonts, rem8 );
+        text-align: $text-align;
+        border-radius: 10px;
+        padding: 5px;}
+    .textoblanco{
+        color: white;
+        font-size: map-get($sizes-fonts, rem7 );
+        font-family: $fuente;
+        text-align: $text-align;
+        text-shadow: 1px 1px 10px black;}
+        .nav{
+            background-color: $background;
+            color: darkgray;
+            border: 1px;
+            border-radius: 10px;
+            padding: 10px;
+            font-family: $fuente;
+            font-weight: $font-weight;
+            font-size: map-get($sizes-fonts, rem5 );
+            text-decoration: none;
+            margin: map-get($margin, px3 );}
+
+}
+
+.chomaso2 {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    margin-top: 20px !important;
+    text-shadow: 1px 1px 10px black; }
+
+
+    .captus{
+        width: 1800px;
+        height: 400px;
+        img{
+            @include mixinHeight;
+            height: 100%;
+            border-radius: 10px;
+            box-shadow: 5px 10px 12px rgba(255, 255, 255, 0.632);
+            display: flex;
+            justify-content: $centrado;
+            align-items: $centrado;
+        }
+        h1{
+            position:$position;
+            top: -100%;
+            left: 2%;}
+        p{
+            position: $position;
+            top: -80%;
+            left: 0%;}    
+
+    }   
+
+
+
+        
+.card{
+    background-color: #262626 !important;
+    margin-left: 100px;
+    display: flex;
+    align-items: $centrado;
+    justify-content: $centrado;
+    width: 18rem;} 
+.card-title{
+    font-family: $fuente;
+    font-weight: bold;}
+
+.card-text{
+        font-family: $fuente;
+        font-weight: arial;}
+
+.color{
+    color: white;}
+    .formu{
+        display: flex;
+        justify-content: end;
+     }
+
+     .findepagina .textblanco{
+        color: white;}
+    
+    .pie{
+        background-color: #ffffff9d;}
+        .mover2{
+            display: flex;
+            justify-content:$centrado;
+            align-items: $centrado;
+            position: relative;
+            left: -3.5%;}
+
+            .carru{
+                border-radius: 0mm;}
+               
+               .titulocarrusel{
+                   color: $color-black;
+                   font-family: $fuente;
+                   font-size: 3rem;
+                   font-weight: bold;
+                   text-align: $centrado;
+                   text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.733)}

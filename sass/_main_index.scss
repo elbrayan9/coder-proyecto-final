@@ -1,0 +1,10 @@
+.carru{
+    border-radius: 0mm;}
+   
+   .titulocarrusel{
+       color: $color-black;
+       font-family: $fuente;
+       font-size: map-get($sizes-fonts, rem4 );
+       font-weight: $font-weight;
+       text-align: $text-align;
+       text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.733)}
